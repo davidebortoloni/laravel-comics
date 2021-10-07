@@ -1,0 +1,28 @@
+.sec-menus {
+    height: 350px;
+    background-image: url("../img/footer-bg.jpg");
+    background-size: cover;
+  .container {
+    flex-basis: 1200px;
+  }
+  .col {
+    flex-basis: 150px;
+  }
+  .menu {
+    font-family: "Roboto Condensed", sans-serif;
+    padding: 10px 0;
+  }
+  h3 {
+    margin-top: 10px;
+    text-transform: uppercase;
+  }
+  ul {
+    list-style-type: none;
+    a {
+      text-decoration: none;
+      &:hover {
+        color: white;
+      }
+    }
+  }
+}

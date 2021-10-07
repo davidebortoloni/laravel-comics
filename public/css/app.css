@@ -1,0 +1,207 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.h-100 {
+  height: 100%;
+}
+
+.justify-content-between {
+  justify-content: space-between;
+}
+
+.justify-content-center {
+  justify-content: center;
+}
+
+.align-items-center {
+  align-items: center;
+}
+
+.text-grey {
+  color: #2e2e2e;
+}
+
+.text-lightgrey {
+  color: #8a8a8a;
+}
+
+.text-white {
+  color: white;
+}
+
+.text-center {
+  text-align: center;
+}
+
+.text-small {
+  font-size: 11px;
+}
+
+.text-medium {
+  font-size: 20px;
+}
+
+header {
+  font-family: "Roboto Condensed", sans-serif;
+}
+header .row {
+  height: 100px;
+}
+header ul {
+  list-style-type: none;
+}
+header ul li {
+  display: inline-block;
+  margin: 0 15px;
+  padding: 2px 0;
+}
+header ul li.active div {
+  border-bottom: 4px solid #0282f9;
+}
+header ul li.active div a {
+  color: #0282f9;
+}
+header ul a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+header ul a:hover {
+  color: #0282f9;
+}
+header img {
+  padding: 14px;
+}
+
+main {
+  min-height: calc(100vh - 550px);
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #1c1c1c;
+  padding: 50px 0;
+}
+
+#books .row {
+  flex-wrap: wrap;
+}
+#books section {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #1c1c1c;
+}
+#books .col {
+  margin-top: 10px;
+  flex-basis: 180px;
+  padding: 15px;
+}
+#books .book {
+  width: 100%;
+}
+#books .cover {
+  width: 100%;
+  height: 150px;
+  overflow: hidden;
+}
+#books .cover img {
+  width: 100%;
+}
+#books h3 {
+  text-transform: uppercase;
+  color: white;
+  font-size: 14px;
+  margin-top: 15px;
+}
+
+#book {
+  color: white;
+}
+#book h2 {
+  margin-bottom: 20px;
+}
+#book img {
+  margin-right: 30px;
+}
+
+.sec-menus {
+  height: 350px;
+  background-image: url("../img/footer-bg.jpg");
+  background-size: cover;
+}
+.sec-menus .container {
+  flex-basis: 1200px;
+}
+.sec-menus .col {
+  flex-basis: 150px;
+}
+.sec-menus .menu {
+  font-family: "Roboto Condensed", sans-serif;
+  padding: 10px 0;
+}
+.sec-menus h3 {
+  margin-top: 10px;
+  text-transform: uppercase;
+}
+.sec-menus ul {
+  list-style-type: none;
+}
+.sec-menus ul a {
+  text-decoration: none;
+}
+.sec-menus ul a:hover {
+  color: white;
+}
+
+footer {
+  font-family: "Roboto Condensed", sans-serif;
+  background-color: #303030;
+}
+footer .row {
+  height: 100px;
+}
+footer a {
+  text-decoration: none;
+}
+footer a .btn {
+  border: 3px solid #0282f9;
+  color: white;
+  padding: 5px;
+}
+footer a .btn:hover {
+  background-color: #0282f9;
+}
+footer ul {
+  list-style-type: none;
+  display: inline-block;
+}
+footer ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+footer ul a {
+  display: inline-block;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+footer ul a:hover {
+  color: #0282f9;
+}
+footer h2 {
+  display: inline-block;
+  color: #0282f9;
+  margin-right: 15px;
+}
